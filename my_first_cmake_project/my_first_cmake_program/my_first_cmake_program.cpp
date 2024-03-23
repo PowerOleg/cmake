@@ -8,5 +8,6 @@ int main(int argc, char** argv)
 	std::cout << "Введите имя: ";
 	std::cin >> name;
 	std::cout << "Здравствуйте, " << name << "!";
+	system("Pause");
 	return 0;
 }
